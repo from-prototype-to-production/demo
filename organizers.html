@@ -6,6 +6,50 @@
     <title>Organizers</title>
     <link rel="stylesheet" href="styles.css">
     <style>
+    .header-container {
+        background-color: #2c3e50;
+        padding: 50px 0;
+        position: relative;
+        overflow: hidden;
+    }
+    .header-content {
+        text-align: center;
+        position: relative;
+        z-index: 2;
+    }
+    .header-title {
+        color: white;
+        font-family: Arial, sans-serif;
+        font-size: 48px;
+        font-weight: 300;
+        margin: 0;
+    }
+    .diagonal-lines {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+    .diagonal-line {
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.1);
+        transform: skew(-45deg);
+    }
+    .line-1 {
+        top: -50%;
+        left: -25%;
+        width: 150%;
+        height: 200%;
+    }
+    .line-2 {
+        top: -50%;
+        right: -25%;
+        width: 150%;
+        height: 200%;
+    }
+        
     .speaker-container {
         display: flex;
         margin-bottom: 30px;
@@ -42,7 +86,15 @@
     </div>
 
 <div class="content">
-        <h1>Organizers</h1>
+    <header class="header-container">
+    <div class="diagonal-lines">
+        <div class="diagonal-line line-1"></div>
+        <div class="diagonal-line line-2"></div>
+    </div>
+    <div class="header-content">
+        <h1 class="header-title">Organizing Comittee</h1>
+    </div>
+</header>
 
     <div class="speaker-container">
     <img src="/api/placeholder/150/150" alt="Dhruv Desai" class="speaker-image">
