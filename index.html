@@ -5,51 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>From Prototype to Production: Deploying Real-World AI / ML Models in the Financial Industry</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-    .header-container {
-        background-color: #2c3e50;
-        padding: 50px 0;
-        position: relative;
-        overflow: hidden;
-    }
-    .header-content {
-        text-align: center;
-        position: relative;
-        z-index: 2;
-    }
-    .header-title {
-        color: white;
-        font-family: Arial, sans-serif;
-        font-size: 48px;
-        font-weight: 300;
-        margin: 0;
-    }
-    .diagonal-lines {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        z-index: 1;
-    }
-    .diagonal-line {
-        position: absolute;
-        background-color: rgba(255, 255, 255, 0.1);
-        transform: skew(-45deg);
-    }
-    .line-1 {
-        top: -50%;
-        left: -25%;
-        width: 150%;
-        height: 200%;
-    }
-    .line-2 {
-        top: -50%;
-        right: -25%;
-        width: 150%;
-        height: 200%;
-    }
-</style>
+
 </head>
 <body>
     <div class="navbar">
@@ -59,9 +15,20 @@
         <a href="schedule.html">Schedule</a>
     </div>
     <div class="content">
+
+        <header class="header-container">
+    <div class="diagonal-lines">
+        <div class="diagonal-line line-1"></div>
+        <div class="diagonal-line line-2"></div>
+    </div>
+    <div class="header-content">
         <h2 style="text-align: center;">ICAIF 2024 Workshop</h2>
     <h2 style="text-align: center;">From Prototype to Production: Deploying Real-World AI / ML Models in the Financial Industry</h2>
- </header>
+
+     
+    </div>
+</header>
+      
  <div>
    <h2>Conference Overview </h2>
    The ACM International Conference on AI in Finance (ICAIF) is a scholarly peer-reviewed conference that aims to bring together researchers from both academia and industry to share challenges, advances, and insights on the impact of Artificial Intelligence and Machine Learning on finance. ICAIF is supported by the Association for Computing Machinery (ACM). We invite participation from academia, government, regulatory agencies, financial institutions, NGOs, and other stakeholders in the AI and Finance community. 
@@ -69,7 +36,7 @@
 Deploying machine learning models in production has challenges across multiple dimensions. Challenges spanning across scale (computation power, infrastructure support), software development, continuous integration-continues deployment CI/CD, and eventually the consumption of the model for desired use cases and their cascading effects. Over the past few years, this process has been captured under the specific umbrella of ML Ops and more recently LLM Ops. ML Ops is a compound of "machine learning" and the continuous delivery practice of DevOps in the software field. The ecosystem of ML Ops is further convoluted for any industry with strict regulatory requirements and even more complex for the financial sector. Any significant event or sudden changes in the market can throw these ML models askew. While implementing these models in production they have to be robust against sudden changes in the market at the same time checks need to be put in place to identify any anomalies, outliers, drift, and bad data.
 <h2>Call for Papers</h1>
 <div>
- <p>We are soliciting of short papers (4 pages) and long papers (8 pages). There is no limit on the number of pages for references and acknowledgments. Papers must be formatted according to ACM’s sigconf layout (see <a href="https://ai-finance.org/submission-instructions-2/">here</a> for instructions).</p>
+ <p>We are soliciting short papers (4 pages) and long papers (8 pages). There is no limit on the number of pages for references and acknowledgments. Papers must be formatted according to ACM’s sigconf layout (see <a href="https://ai-finance.org/submission-instructions-2/">here</a> for instructions).</p>
 </div>
    
    
@@ -94,7 +61,7 @@ Deploying machine learning models in production has challenges across multiple d
    <li><strong>Format</strong>: PDF file, using the <a href="https://www.acm.org/publications/proceedings-template"> ACM’s sigconf layout</a>. ACM LaTeX templates: [<a href="https://www.acm.org/binaries/content/assets/publications/consolidated-tex-template/acmart-primary.zip">download</a>] use the sigconf template.</li>
  <li><strong>Submission Portal</strong>: <a href="https://www.acm.org/publications/proceedings-template">OpenLeaf</a></li>
  <li><strong>Anonymity</strong>: Submissions should be anonymous for two-way anonymized review.</li>
- <li><strong>Archival</strong>: The workshop will be non-archival in format, but we are intending to share the accepted papers on the workshop web page. We optionally ask the speakers to make their talk slides public too. Papers and slides will be linked to the workshop website when they are available.</li>
+ <li><strong>Archival</strong>: The workshop will be non-archival in format, but we intend to share the accepted papers on the workshop web page. We optionally ask the speakers to make their talk slides public too. Papers and slides will be linked to the workshop website when they are available.</li>
  <li>This is a participatory, in-person event. Accepted Authors are encouraged to present their work and discuss it at the event.</li>
  </ul>
 </div>
