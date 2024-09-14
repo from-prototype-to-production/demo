@@ -5,6 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Organizers</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+    .speaker-container {
+        display: flex;
+        margin-bottom: 30px;
+        font-family: Arial, sans-serif;
+    }
+    .speaker-image {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        margin-right: 20px;
+    }
+    .speaker-info {
+        flex: 1;
+    }
+    .speaker-name {
+        color: #4a90e2;
+        font-size: 24px;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    .speaker-bio {
+        font-size: 14px;
+        line-height: 1.5;
+        margin: 0;
+    }
+</style>
 </head>
 <body>
     <div class="navbar">
@@ -13,51 +40,30 @@
         <a href="keynote.html">Keynote Talks</a>
         <a href="schedule.html">Schedule</a>
     </div>
-    <div class="content">
-        <h1>Organizers</h1>
-        <ul>
-            <li>
-                <strong>Dhruv Desai</strong><br>
-                Currently works as a data scientist with the Investment AI team at BlackRock. His research focuses on areas of liquidity and trading; AI/ML risk management frameworks. He previously worked as Sr. Machine Learning Engineer at Vanguard where he was responsible for building end-to-end machine learning models. He earned his bachelor's degree from Nirma University and his master's degree from University of Pennsylvania. He has <a href="https://scholar.google.com/citations?hl=en&user=_DPcNCEAAAAJ">published</a> 8 papers over the past four years all in the machine learning and finance space.<br>
-                <strong>Email:</strong> dhruvdesai@alumni.upenn.edu
-            </li>
-            <br>
-            <li>
-                <strong>Bhaskarjit Sarmah</strong><br>
-                Working as a senior data scientist at BlackRock involved in building AI/ML products and solutions in trading, lending, portfolio management, and operations business at BlackRock. His research interests include machine learning explainability, uncertainty, active learning, and graph machine learning. Currently focusing on building Gen AI and Responsible AI solutions around the legacy models. Bhaskarjit has published 6 papers till now and also has filed 1 patent.<br>
-                <strong>Email:</strong> bhaskarjit.sarmah@blackrock.com
-            </li>
-            <br>
-            <li>
-                <strong>Ali Fathi</strong><br>
-                Principal AI Scientist with U.S. Bank.<br>
-                <strong>Email:</strong> ali.fathi@usbank.com
-            </li>
-            <br>
-            <li>
-                <strong>Masoud Hasemi</strong><br>
-                ServiceNow<br>
-                <strong>Email:</strong> masoud.hasemi@servicenow.com
-            </li>
-            <br>
-            <li>
-                <strong>Fabio Casati</strong><br>
-                Principal Responsible AI Architect at ServiceNow and Professor at the University of Trento. His recent work focuses on the intersection of traditional ML and Gen AI, and the responsibility and trust relationship across the AI supply chain. He has published over 250 peer-reviewed papers and chaired several conferences and workshops.<br>
-                <strong>Email:</strong> fabio.casati@servicenow.com
-            </li>
-            <br>
-            <li>
-                <strong>Anant Gupta</strong><br>
-                As a Senior AI Researcher in the Bloomberg AI group, Anant works on financial document understanding, which enhances Bloomberg's document search function. He previously worked on dialogue understanding in Instant Bloomberg, the company's instant messaging app. His expertise includes model deployment and optimization, automation of model development lifecycle, distillation methods, LLM prompt tuning, and building end-to-end machine learning production services.<br>
-                <strong>Email:</strong> agupta968@bloomberg.net
-            </li>
-            <br>
-            <li>
-                <strong>Jayeeta Putatunda</strong><br>
-                Currently works as a Senior Data Scientist with the Emerging Technology at Fitch Group. She specializes in Natural Language Processing and building AI/ML solutions that are leveraged across Ratings, Solutions, and Research at Fitch. Her current focus areas also include LLM Ops, fine-tuning, and building customized RAG-based pipelines. Jayeeta has also been actively involved in initiatives to support and mentor women in STEM, by leading workshops with organizations like Women Who Code and Google's Women Techmakers. She is also an ambassador for Women in Data Science at Stanford University and the NYC Chapter Lead for Women in AI, a global nonprofit think tank working towards gender-inclusive AI. Jayeeta has been awarded as the 100 Most Influential AI Leaders in the Generative AI 2024 category by AIM.<br>
-                <strong>Email:</strong> jayeeta.putatunda@thefitchgroup.com
-            </li>
-        </ul>
+
+
+
+    <div class="speaker-container">
+    <img src="/api/placeholder/150/150" alt="Dhruv Desai" class="speaker-image">
+    <div class="speaker-info">
+        <h2 class="speaker-name">Dhruv Desai</h2>
+        <p class="speaker-bio">
+            Currently works as a data scientist with the Investment AI team at BlackRock. His research focuses on areas of liquidity and trading; AI/ML risk management frameworks. He previously worked as Sr. Machine Learning Engineer at Vanguard where he was responsible for building end-to-end machine learning models. He earned his bachelor's degree from Nirma University and his master's degree from University of Pennsylvania. He has <a href="https://scholar.google.com/citations?hl=en&user=_DPcNCEAAAAJ">published</a> 8 papers over the past four years all in the machine learning and finance space.
+            <strong>Email:</strong> dhruvdesai@alumni.upenn.edu
+        </p>
     </div>
+</div>
+
+<div class="speaker-container">
+    <img src="/api/placeholder/150/150" alt="Bhaskarjit Sarmah" class="speaker-image">
+    <div class="speaker-info">
+        <h2 class="speaker-name">Bhaskarjit Sarmah</h2>
+        <p class="speaker-bio">
+            Working as a senior data scientist at BlackRock involved in building AI/ML products and solutions in trading, lending, portfolio management, and operations business at BlackRock. His research interests include machine learning explainability, uncertainty, active learning, and graph machine learning. Currently focusing on building Gen AI and Responsible AI solutions around the legacy models. Bhaskarjit has published 6 papers till now and also has filed 1 patent.
+            <strong>Email:</strong> bhaskarjit.sarmah@blackrock.com
+        </p>
+    </div>
+</div>
+
 </body>
 </html>
