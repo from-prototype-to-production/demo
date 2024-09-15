@@ -109,7 +109,11 @@ td {
         width: 150%;
         height: 200%;
     }
-        
+    .speakers-wrapper {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
     .speaker-container {
         display: flex;
         margin-bottom: 30px;
