@@ -76,6 +76,7 @@ td {
         font-size: 48px;
         font-weight: 300;
         margin: 0;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
     }
     .header-title2 {
         color: white;
@@ -138,4 +139,20 @@ td {
         font-size: 14px;
         line-height: 1.5;
         margin: 0;
+    }
+    .header-container-img {
+        background-image: url('/api/placeholder/1200/300'); /* Replace with your actual image URL */
+        background-size: cover;
+        background-position: center;
+        padding: 50px 0;
+        position: relative;
+    }
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.3); /* Optional: adds a dark overlay to improve text readability */
+        z-index: 1;
     }
