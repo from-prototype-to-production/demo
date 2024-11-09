@@ -39,8 +39,7 @@ h1 {
 }
 
   .schedule-table {
-        width: 100%;
-        max-width: 800px;
+        width: 100%;      
         margin: 40px;
         border-collapse: collapse;
         border: 1px solid #000;
@@ -48,7 +47,7 @@ h1 {
     }
     .schedule-table th {
         padding: 12px;
-        text-align: center;
+        text-align: left;
         background-color: #000;
         color: #fff;
         font-weight: bold;
@@ -109,7 +108,7 @@ h1 {
         height: 200%;
     }
     .speakers-wrapper {
-        max-width: 1000px;
+        max-width: 1100px;
         margin: 0 auto;
         padding: 0 20px;
     }
